@@ -3,7 +3,6 @@
 </div>
 
 <h1 align="center">KasperZF</h1>
-<h3 align="center">Concepteur &amp; développeur d'applications depuis 2022</h3>
 
 <p align="center">
   Je conçois et développe des applications depuis 2022, avec l'objectif de transformer
