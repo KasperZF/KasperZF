@@ -18,6 +18,10 @@
   <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
 </p>
 
+<!-- profile-date:start -->
+<p align="center"><sub>Dernière mise à jour : 7 mai 2026</sub></p>
+<!-- profile-date:end -->
+
 ### `> stack`
 
 <p align="center">

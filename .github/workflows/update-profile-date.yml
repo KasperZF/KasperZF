@@ -1,0 +1,61 @@
+name: Update profile date
+
+on:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update displayed date
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          months = [
+              "janvier", "février", "mars", "avril", "mai", "juin",
+              "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+          ]
+          now = datetime.now(ZoneInfo("Europe/Paris"))
+          date = f"{now.day} {months[now.month - 1]} {now.year}"
+          start = "<!-- profile-date:start -->"
+          end = "<!-- profile-date:end -->"
+          block = f'{start}\n<p align="center"><sub>Dernière mise à jour : {date}</sub></p>\n{end}'
+
+          before, marker, rest = text.partition(start)
+          if not marker:
+              raise SystemExit("profile date start marker not found")
+          _, marker, after = rest.partition(end)
+          if not marker:
+              raise SystemExit("profile date end marker not found")
+
+          updated = before + block + after
+          if updated != text:
+              readme.write_text(updated, encoding="utf-8", newline="\n")
+          PY
+
+      - name: Commit date update
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README date is already current."
+            exit 0
+          fi
+          git config user.name "Kasper"
+          git config user.email "246331663+KasperZF@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update profile date"
+          git push
