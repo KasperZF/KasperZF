@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/pixel-header.svg" alt="KasperZF - concepteur et développeur d'applications depuis 2022" width="100%" />
+  <img src="./assets/profile-header.svg" alt="KasperZF - concepteur et développeur d'applications depuis 2022" width="100%" />
 </div>
 
 <h1 align="center">KasperZF</h1>
