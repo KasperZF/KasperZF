@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">KasperZF - concepteur et développeur d'applications depuis 2022</title>
-  <desc id="desc">Bannière pixel art avec fenêtre terminal macOS, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Apps, UI et Code.</desc>
+  <desc id="desc">Fenêtre macOS plein cadre avec terminal, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Apps, UI et Code.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
@@ -19,9 +19,15 @@
     </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
-  <rect x="18" y="18" width="1164" height="324" rx="18" fill="url(#grid)" opacity=".9"/>
-  <rect x="18" y="18" width="1164" height="324" rx="18" fill="none" stroke="#30363d" stroke-width="2"/>
+  <rect x="8" y="8" width="1184" height="344" rx="24" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1184" height="344" rx="24" fill="url(#grid)" opacity=".9"/>
+  <rect x="8" y="8" width="1184" height="344" rx="24" fill="none" stroke="#30363d" stroke-width="2"/>
+  <rect x="8" y="8" width="1184" height="46" rx="24" fill="#161b22"/>
+  <path d="M8 32 Q8 8 32 8 H1168 Q1192 8 1192 32 V54 H8 Z" fill="#161b22"/>
+  <circle cx="34" cy="31" r="7" fill="#ff5f56"/>
+  <circle cx="58" cy="31" r="7" fill="#ffbd2e"/>
+  <circle cx="82" cy="31" r="7" fill="#27c93f"/>
+  <text x="112" y="36" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">kasperzf@profile: ~/readme</text>
 
   <g opacity=".55">
     <rect x="63" y="62" width="10" height="10" fill="#22c55e">
@@ -45,73 +51,66 @@
   </g>
 
   <g filter="url(#softGlow)">
-    <path d="M78 104 H142 V136 H94 V168 H158 V216 H78 V104" fill="none" stroke="#1f6feb" stroke-width="2" opacity=".18"/>
+    <path d="M78 118 H142 V150 H94 V182 H158 V230 H78 V118" fill="none" stroke="#1f6feb" stroke-width="2" opacity=".18"/>
     <g>
-      <rect x="135" y="129" width="14" height="14" rx="2" fill="#39d353" stroke="#0e4429" stroke-width="2"/>
+      <rect x="135" y="143" width="14" height="14" rx="2" fill="#39d353" stroke="#0e4429" stroke-width="2"/>
       <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.18;.21;.38;.42;1" dur="5.8s" repeatCount="indefinite"/>
     </g>
     <g>
-      <rect x="151" y="209" width="14" height="14" rx="2" fill="#26a641" stroke="#0e4429" stroke-width="2"/>
+      <rect x="151" y="223" width="14" height="14" rx="2" fill="#26a641" stroke="#0e4429" stroke-width="2"/>
       <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.58;.61;.78;.82;1" dur="5.8s" repeatCount="indefinite"/>
     </g>
     <g>
-      <rect x="71" y="97" width="14" height="14" rx="2" fill="#2ea043" stroke="#0e4429" stroke-width="2"/>
+      <rect x="71" y="111" width="14" height="14" rx="2" fill="#2ea043" stroke="#0e4429" stroke-width="2"/>
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.94;1" dur="5.8s" repeatCount="indefinite"/>
     </g>
 
     <g opacity=".55">
       <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#14532d">
-        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.34s" path="M78 104 H142 V136 H94 V168 H158 V216 H78 V104"/>
+        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.34s" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
       </rect>
       <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#15803d">
-        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.50s" path="M78 104 H142 V136 H94 V168 H158 V216 H78 V104"/>
+        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.50s" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
       </rect>
       <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#16a34a">
-        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.66s" path="M78 104 H142 V136 H94 V168 H158 V216 H78 V104"/>
+        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.66s" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
       </rect>
     </g>
     <g>
       <rect x="-8" y="-8" width="16" height="16" rx="4" fill="#22c55e">
-        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 104 H142 V136 H94 V168 H158 V216 H78 V104"/>
+        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
       </rect>
       <rect x="-4" y="-4" width="3" height="3" fill="#0d1117">
-        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 104 H142 V136 H94 V168 H158 V216 H78 V104"/>
+        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
       </rect>
       <rect x="2" y="-4" width="3" height="3" fill="#0d1117">
-        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 104 H142 V136 H94 V168 H158 V216 H78 V104"/>
+        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
       </rect>
     </g>
   </g>
 
-  <g transform="translate(190 62)">
-    <rect width="820" height="238" rx="14" fill="#0d1117" opacity=".92" stroke="#30363d"/>
-    <rect width="820" height="38" rx="14" fill="#161b22"/>
-    <circle cx="26" cy="19" r="6" fill="#ff5f56"/>
-    <circle cx="48" cy="19" r="6" fill="#ffbd2e"/>
-    <circle cx="70" cy="19" r="6" fill="#27c93f"/>
-    <text x="96" y="25" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">kasperzf@profile: ~/readme</text>
+  <g transform="translate(210 92)">
+    <text x="0" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ whoami</text>
+    <text x="28" y="43" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="700">KasperZF</text>
 
-    <text x="42" y="75" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="19">$ whoami</text>
-    <text x="64" y="111" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="48" font-weight="700">KasperZF</text>
+    <text x="0" y="92" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ role --since 2022</text>
+    <text x="28" y="125" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="23">Concepteur &amp; développeur d'applications</text>
+    <text x="28" y="158" fill="#f97316" font-family="Consolas, 'Courier New', monospace" font-size="23">depuis 2022</text>
 
-    <text x="42" y="147" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="19">$ role --since 2022</text>
-    <text x="64" y="178" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="21">Concepteur &amp; développeur d'applications</text>
-    <text x="64" y="208" fill="#f97316" font-family="Consolas, 'Courier New', monospace" font-size="21">depuis 2022</text>
+    <text x="585" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ stack</text>
+    <rect x="585" y="22" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
+    <text x="604" y="41" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
+    <rect x="694" y="22" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
+    <text x="715" y="41" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
+    <rect x="585" y="62" width="62" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
+    <text x="603" y="81" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Apps</text>
+    <rect x="658" y="62" width="46" height="28" rx="6" fill="#2a1321" stroke="#db61a2"/>
+    <text x="673" y="81" fill="#ff9ad5" font-family="Consolas, 'Courier New', monospace" font-size="14">UI</text>
+    <rect x="715" y="62" width="74" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
+    <text x="735" y="81" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Code</text>
 
-    <text x="525" y="75" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="18">$ stack</text>
-    <rect x="525" y="95" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
-    <text x="544" y="114" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
-    <rect x="634" y="95" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
-    <text x="655" y="114" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
-    <rect x="525" y="135" width="62" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
-    <text x="543" y="154" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Apps</text>
-    <rect x="598" y="135" width="46" height="28" rx="6" fill="#2a1321" stroke="#db61a2"/>
-    <text x="613" y="154" fill="#ff9ad5" font-family="Consolas, 'Courier New', monospace" font-size="14">UI</text>
-    <rect x="655" y="135" width="74" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
-    <text x="675" y="154" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Code</text>
-
-    <text x="525" y="197" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="18">$ ship</text>
-    <text x="547" y="220" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="15">build clean, then push</text>
+    <text x="585" y="134" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ ship</text>
+    <text x="612" y="160" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="16">build clean, then push</text>
   </g>
 
 </svg>
