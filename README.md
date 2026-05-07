@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KasperZF?tab=repositories">
-    <img alt="Repos GitHub" src="https://img.shields.io/badge/Repos-voir%20mes%20projets-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://github.com/KasperZF?tab=repositories" title="Voir mes projets GitHub">
+    <img alt="Voir mes projets GitHub" src="https://img.shields.io/badge/GitHub-mes%20projets-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
 </p>
