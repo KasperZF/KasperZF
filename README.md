@@ -6,8 +6,8 @@
 <h3 align="center">Concepteur &amp; développeur d'applications depuis 2022</h3>
 
 <p align="center">
-  Je construis des projets concrets, sans trop parler pour rien : une idée, une interface,
-  du code propre, puis on teste jusqu'à ce que ça tourne vraiment.
+  Je conçois et développe des applications depuis 2022, avec l'objectif de transformer
+  une idée en outil clair, utile et agréable à utiliser.
 </p>
 
 <p align="center">
@@ -15,7 +15,6 @@
     <img alt="Repos GitHub" src="https://img.shields.io/badge/Repos-voir%20mes%20projets-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
-  <img alt="Let me cook" src="https://img.shields.io/badge/Let%20me-cook-22c55e?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -27,8 +26,6 @@
   <code>#Automation</code>
   <code>#OpenSource</code>
 </p>
-
-<img src="./assets/pixel-line.svg" alt="" width="100%" />
 
 ### `> whoami`
 
@@ -62,8 +59,6 @@ reprends proprement, puis je livre.
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
 </p>
 
-<img src="./assets/pixel-line.svg" alt="" width="100%" />
-
 <p align="center">
-  <code>let</code> <code>me</code> <code>cook</code> <code>build</code> <code>ship</code>
+  <code>design</code> <code>build</code> <code>ship</code>
 </p>

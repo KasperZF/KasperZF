@@ -66,7 +66,7 @@
     <circle cx="70" cy="19" r="6" fill="#27c93f"/>
     <text x="96" y="25" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">profile/readme.md</text>
 
-    <text x="42" y="88" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ let-me-cook --since 2022</text>
+    <text x="42" y="88" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ build --since 2022</text>
     <text x="42" y="134" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="50" font-weight="700">KasperZF</text>
     <text x="42" y="172" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="22">Concepteur &amp; développeur d'applications</text>
     <text x="42" y="205" fill="#f97316" font-family="Consolas, 'Courier New', monospace" font-size="22">depuis 2022</text>
@@ -80,7 +80,7 @@
     <rect x="638" y="112" width="46" height="28" rx="6" fill="#2a1321" stroke="#db61a2"/>
     <text x="653" y="131" fill="#ff9ad5" font-family="Consolas, 'Courier New', monospace" font-size="14">UI</text>
     <rect x="695" y="112" width="102" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
-    <text x="727" y="131" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Cook</text>
+    <text x="726" y="131" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Code</text>
   </g>
 
   <rect x="-210" y="0" width="210" height="360" fill="url(#scan)">
