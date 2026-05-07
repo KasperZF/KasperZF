@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">KasperZF - concepteur et développeur d'applications depuis 2022</title>
-  <desc id="desc">Fenêtre macOS plein cadre avec terminal, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Apps, UI et Code.</desc>
+  <desc id="desc">Fenêtre macOS plein cadre avec terminal, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Front-End et Back-End.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
@@ -102,12 +102,10 @@
     <text x="604" y="41" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
     <rect x="694" y="22" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
     <text x="715" y="41" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
-    <rect x="585" y="62" width="62" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
-    <text x="603" y="81" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Apps</text>
-    <rect x="658" y="62" width="46" height="28" rx="6" fill="#2a1321" stroke="#db61a2"/>
-    <text x="673" y="81" fill="#ff9ad5" font-family="Consolas, 'Courier New', monospace" font-size="14">UI</text>
-    <rect x="715" y="62" width="74" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
-    <text x="735" y="81" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Code</text>
+    <rect x="585" y="62" width="102" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
+    <text x="601" y="81" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Front-End</text>
+    <rect x="698" y="62" width="96" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
+    <text x="714" y="81" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Back-End</text>
 
     <text x="585" y="134" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ ship</text>
     <text x="612" y="160" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="16">build clean, then push</text>
