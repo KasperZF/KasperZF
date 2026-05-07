@@ -17,16 +17,6 @@
   <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
 </p>
 
-<p align="center">
-  <code>#Windows</code>
-  <code>#Linux</code>
-  <code>#Desktop</code>
-  <code>#Web</code>
-  <code>#UI</code>
-  <code>#Automation</code>
-  <code>#OpenSource</code>
-</p>
-
 ### `> stack`
 
 <p align="center">
@@ -45,8 +35,4 @@
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
-</p>
-
-<p align="center">
-  <code>design</code> <code>build</code> <code>ship</code>
 </p>
