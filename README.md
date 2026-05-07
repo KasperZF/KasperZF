@@ -6,8 +6,8 @@
 <h3 align="center">Concepteur &amp; développeur d'applications depuis 2022</h3>
 
 <p align="center">
-  Je conçois des applications utiles, propres et rapides pour transformer une idée en produit concret :
-  interfaces, automatisations, outils métier, sites et expériences web.
+  Je construis des projets concrets, sans trop parler pour rien : une idée, une interface,
+  du code propre, puis on teste jusqu'à ce que ça tourne vraiment.
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
     <img alt="Repos GitHub" src="https://img.shields.io/badge/Repos-voir%20mes%20projets-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
-  <img alt="Focus application" src="https://img.shields.io/badge/Focus-applications-22c55e?style=for-the-badge" />
+  <img alt="Let me cook" src="https://img.shields.io/badge/Let%20me-cook-22c55e?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -36,12 +36,14 @@
 KasperZF
 role      : Concepteur & developpeur d'applications
 since     : 2022
-mindset   : concevoir clair, coder propre, livrer concret
+mindset   : comprendre vite, construire propre, livrer concret
 systems   : Windows + Linux
 ```
 
-Je travaille avec une logique produit : comprendre le besoin, dessiner une interface qui se tient,
-coder une base fiable, puis itérer jusqu'à obtenir quelque chose d'agréable à utiliser.
+Je suis parti du côté "je veux juste créer mon propre outil", et je suis resté pour tout le reste :
+les interfaces, les automatisations, les bugs qui forcent à mieux comprendre, les petits détails qui
+rendent une application agréable à utiliser. Depuis 2022, j'avance comme ça : je teste, je casse, je
+reprends proprement, puis je livre.
 
 ### `> stack`
 
@@ -60,14 +62,20 @@ coder une base fiable, puis itérer jusqu'à obtenir quelque chose d'agréable �
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
 </p>
 
-### `> ce que je construis`
+### `> ce que j'aime construire`
 
-| Zone | Ce que j'aime livrer |
+| Zone | Mon approche |
 | --- | --- |
-| Applications | Outils desktop et web, interfaces métier, tableaux de bord, workflows simples. |
-| Expérience | Parcours lisibles, micro-interactions utiles, UI propre et efficace. |
-| Automatisation | Scripts, pipelines, intégrations API, génération de fichiers et actions répétitives. |
-| Environnements | Développement et déploiement sur Windows, Linux, GitHub et services cloud. |
+| Applications | Des outils qui servent vraiment, pas juste des écrans jolis pour faire joli. |
+| Interface | Un truc lisible, fluide, avec les bons détails au bon endroit. |
+| Automatisation | Quand une action est répétée deux fois, je commence à vouloir la simplifier. |
+| Système | Windows pour produire, Linux pour comprendre et aller plus loin. |
+
+### `> en ce moment`
+
+Je travaille surtout sur des applications desktop/web, des intégrations API, des interfaces plus propres
+et des workflows qui font gagner du temps. J'aime quand le produit final donne l'impression que c'était
+simple, même si le code derrière a demandé plusieurs essais.
 
 ### `> signaux GitHub`
 
@@ -87,11 +95,11 @@ coder une base fiable, puis itérer jusqu'à obtenir quelque chose d'agréable �
 </p>
 
 <p align="center">
-  <sub>Le snake est généré automatiquement par GitHub Actions et se balade dans la grille de contributions.</sub>
+  <sub>Version animée de ma grille de contributions. La vraie grille GitHub reste verrouillée par GitHub.</sub>
 </p>
 
 <img src="./assets/pixel-line.svg" alt="" width="100%" />
 
 <p align="center">
-  <code>build</code> <code>design</code> <code>ship</code> <code>repeat</code>
+  <code>let</code> <code>me</code> <code>cook</code> <code>build</code> <code>ship</code>
 </p>
