@@ -5,8 +5,8 @@
 <h1 align="center">KasperZF</h1>
 
 <p align="center">
-  Je conçois et développe des applications depuis 2022, avec l'objectif de transformer
-  une idée en outil clair, utile et agréable à utiliser.
+  Diplômé en conception et développement d'applications, je conçois et développe depuis 2022
+  avec l'objectif de transformer une idée en outil clair, utile et agréable à utiliser.
   Bonus si l'application évite de transformer le PC en radiateur.
 </p>
 
