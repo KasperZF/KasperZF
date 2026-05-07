@@ -51,40 +51,47 @@
   </g>
 
   <g filter="url(#softGlow)">
-    <path d="M78 118 H142 V150 H94 V182 H158 V230 H78 V118" fill="none" stroke="#1f6feb" stroke-width="2" opacity=".18"/>
+    <path d="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88" fill="none" stroke="#1f6feb" stroke-width="2" opacity=".18"/>
     <g>
-      <rect x="135" y="143" width="14" height="14" rx="2" fill="#39d353" stroke="#0e4429" stroke-width="2"/>
-      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.18;.21;.38;.42;1" dur="5.8s" repeatCount="indefinite"/>
+      <rect x="163" y="119" width="14" height="14" rx="2" fill="#39d353" stroke="#0e4429" stroke-width="2"/>
+      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.13;.16;.30;.34;1" dur="8.2s" repeatCount="indefinite"/>
     </g>
     <g>
-      <rect x="151" y="223" width="14" height="14" rx="2" fill="#26a641" stroke="#0e4429" stroke-width="2"/>
-      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.58;.61;.78;.82;1" dur="5.8s" repeatCount="indefinite"/>
+      <rect x="171" y="207" width="14" height="14" rx="2" fill="#26a641" stroke="#0e4429" stroke-width="2"/>
+      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.36;.39;.52;.56;1" dur="8.2s" repeatCount="indefinite"/>
     </g>
     <g>
-      <rect x="71" y="111" width="14" height="14" rx="2" fill="#2ea043" stroke="#0e4429" stroke-width="2"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.94;1" dur="5.8s" repeatCount="indefinite"/>
+      <rect x="105" y="267" width="14" height="14" rx="2" fill="#2ea043" stroke="#0e4429" stroke-width="2"/>
+      <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;.53;.56;.70;.74;1" dur="8.2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="53" y="81" width="14" height="14" rx="2" fill="#39d353" stroke="#0e4429" stroke-width="2"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.94;1" dur="8.2s" repeatCount="indefinite"/>
     </g>
 
     <g opacity=".55">
       <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#14532d">
-        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.34s" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
+        <animateMotion dur="8.2s" repeatCount="indefinite" begin="-7.58s" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
       </rect>
       <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#15803d">
-        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.50s" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
+        <animateMotion dur="8.2s" repeatCount="indefinite" begin="-7.78s" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
       </rect>
       <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#16a34a">
-        <animateMotion dur="5.8s" repeatCount="indefinite" begin="-5.66s" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
+        <animateMotion dur="8.2s" repeatCount="indefinite" begin="-7.98s" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
+      </rect>
+      <rect x="-7" y="-7" width="14" height="14" rx="3" fill="#22c55e">
+        <animateMotion dur="8.2s" repeatCount="indefinite" begin="-8.18s" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
       </rect>
     </g>
     <g>
       <rect x="-8" y="-8" width="16" height="16" rx="4" fill="#22c55e">
-        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
+        <animateMotion dur="8.2s" repeatCount="indefinite" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
       </rect>
       <rect x="-4" y="-4" width="3" height="3" fill="#0d1117">
-        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
+        <animateMotion dur="8.2s" repeatCount="indefinite" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
       </rect>
       <rect x="2" y="-4" width="3" height="3" fill="#0d1117">
-        <animateMotion dur="5.8s" repeatCount="indefinite" path="M78 118 H142 V150 H94 V182 H158 V230 H78 V118"/>
+        <animateMotion dur="8.2s" repeatCount="indefinite" path="M60 88 H170 V126 H92 V166 H178 V214 H112 V274 H48 V224 H86 V184 H54 V138 H118 V88"/>
       </rect>
     </g>
   </g>
