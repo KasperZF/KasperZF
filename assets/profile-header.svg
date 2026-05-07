@@ -103,7 +103,7 @@
 
   <g transform="translate(210 92)">
     <text x="0" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ whoami</text>
-    <text x="28" y="43" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="700">KasperZF</text>
+    <text x="28" y="43" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="700">Kasper</text>
 
     <text x="0" y="92" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ role --since 2022</text>
     <text x="28" y="125" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="23">Concepteur &amp; développeur d'applications</text>
