@@ -27,21 +27,6 @@
   <code>#OpenSource</code>
 </p>
 
-### `> whoami`
-
-```txt
-KasperZF
-role      : Concepteur & developpeur d'applications
-since     : 2022
-mindset   : comprendre vite, construire propre, livrer concret
-systems   : Windows + Linux
-```
-
-Je suis parti du côté "je veux juste créer mon propre outil", et je suis resté pour tout le reste :
-les interfaces, les automatisations, les bugs qui forcent à mieux comprendre, les petits détails qui
-rendent une application agréable à utiliser. Depuis 2022, j'avance comme ça : je teste, je casse, je
-reprends proprement, puis je livre.
-
 ### `> stack`
 
 <p align="center">
