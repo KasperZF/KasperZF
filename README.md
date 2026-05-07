@@ -62,42 +62,6 @@ reprends proprement, puis je livre.
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
 </p>
 
-### `> ce que j'aime construire`
-
-| Zone | Mon approche |
-| --- | --- |
-| Applications | Des outils qui servent vraiment, pas juste des écrans jolis pour faire joli. |
-| Interface | Un truc lisible, fluide, avec les bons détails au bon endroit. |
-| Automatisation | Quand une action est répétée deux fois, je commence à vouloir la simplifier. |
-| Système | Windows pour produire, Linux pour comprendre et aller plus loin. |
-
-### `> en ce moment`
-
-Je travaille surtout sur des applications desktop/web, des intégrations API, des interfaces plus propres
-et des workflows qui font gagner du temps. J'aime quand le produit final donne l'impression que c'était
-simple, même si le code derrière a demandé plusieurs essais.
-
-### `> signaux GitHub`
-
-<p align="center">
-  <img height="165" alt="Stats GitHub" src="https://github-readme-stats.vercel.app/api?username=KasperZF&show_icons=true&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=F97316&icon_color=22C55E&text_color=C9D1D9" />
-  <img height="165" alt="Langages les plus utilisés" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasperZF&layout=compact&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=F97316&text_color=C9D1D9" />
-</p>
-
-### `> contribution snake`
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KasperZF/KasperZF/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KasperZF/KasperZF/output/snake.svg" />
-    <img alt="Animation snake GitHub de KasperZF" src="https://raw.githubusercontent.com/KasperZF/KasperZF/output/snake.svg" width="100%" />
-  </picture>
-</p>
-
-<p align="center">
-  <sub>Version animée de ma grille de contributions. La vraie grille GitHub reste verrouillée par GitHub.</sub>
-</p>
-
 <img src="./assets/pixel-line.svg" alt="" width="100%" />
 
 <p align="center">
