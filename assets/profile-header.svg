@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">KasperZF - concepteur et développeur d'applications depuis 2022</title>
-  <desc id="desc">Bannière pixel art avec terminal, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Apps, UI et Code.</desc>
+  <desc id="desc">Bannière pixel art avec fenêtre terminal macOS, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Apps, UI et Code.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
@@ -83,28 +83,35 @@
     </g>
   </g>
 
-  <g transform="translate(190 78)">
-    <rect width="820" height="206" rx="14" fill="#0d1117" opacity=".88" stroke="#30363d"/>
+  <g transform="translate(190 62)">
+    <rect width="820" height="238" rx="14" fill="#0d1117" opacity=".92" stroke="#30363d"/>
     <rect width="820" height="38" rx="14" fill="#161b22"/>
     <circle cx="26" cy="19" r="6" fill="#ff5f56"/>
     <circle cx="48" cy="19" r="6" fill="#ffbd2e"/>
     <circle cx="70" cy="19" r="6" fill="#27c93f"/>
-    <text x="96" y="25" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">profile/readme.md</text>
+    <text x="96" y="25" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">kasperzf@profile: ~/readme</text>
 
-    <text x="42" y="122" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="50" font-weight="700">KasperZF</text>
-    <text x="42" y="162" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="22">Concepteur &amp; développeur d'applications</text>
-    <text x="42" y="195" fill="#f97316" font-family="Consolas, 'Courier New', monospace" font-size="22">depuis 2022</text>
+    <text x="42" y="75" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="19">$ whoami</text>
+    <text x="64" y="111" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="48" font-weight="700">KasperZF</text>
 
-    <rect x="565" y="72" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
-    <text x="584" y="91" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
-    <rect x="674" y="72" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
-    <text x="695" y="91" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
-    <rect x="565" y="112" width="62" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
-    <text x="583" y="131" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Apps</text>
-    <rect x="638" y="112" width="46" height="28" rx="6" fill="#2a1321" stroke="#db61a2"/>
-    <text x="653" y="131" fill="#ff9ad5" font-family="Consolas, 'Courier New', monospace" font-size="14">UI</text>
-    <rect x="695" y="112" width="102" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
-    <text x="726" y="131" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Code</text>
+    <text x="42" y="147" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="19">$ role --since 2022</text>
+    <text x="64" y="178" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="21">Concepteur &amp; développeur d'applications</text>
+    <text x="64" y="208" fill="#f97316" font-family="Consolas, 'Courier New', monospace" font-size="21">depuis 2022</text>
+
+    <text x="525" y="75" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="18">$ stack</text>
+    <rect x="525" y="95" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
+    <text x="544" y="114" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
+    <rect x="634" y="95" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
+    <text x="655" y="114" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
+    <rect x="525" y="135" width="62" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
+    <text x="543" y="154" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Apps</text>
+    <rect x="598" y="135" width="46" height="28" rx="6" fill="#2a1321" stroke="#db61a2"/>
+    <text x="613" y="154" fill="#ff9ad5" font-family="Consolas, 'Courier New', monospace" font-size="14">UI</text>
+    <rect x="655" y="135" width="74" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
+    <text x="675" y="154" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Code</text>
+
+    <text x="525" y="197" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="18">$ ship</text>
+    <text x="547" y="220" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="15">build clean, then push</text>
   </g>
 
 </svg>
