@@ -17,10 +17,6 @@
   <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
 </p>
 
-<!-- profile-date:start -->
-<p align="center"><sub>Dernière mise à jour : 24 mai 2026</sub></p>
-<!-- profile-date:end -->
-
 ### `> stack`
 
 <p align="center">
@@ -42,3 +38,7 @@
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
 </p>
+
+<!-- profile-date:start -->
+<p align="center"><sub>Dernière mise à jour : 24 mai 2026</sub></p>
+<!-- profile-date:end -->

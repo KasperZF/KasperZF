@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">KasperZF - concepteur et développeur d'applications depuis 2022</title>
+  <title id="title">KasperZF - concepteur et développeur d'application</title>
   <desc id="desc">Fenêtre macOS plein cadre avec terminal, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Front-End et Back-End.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -105,9 +105,8 @@
     <text x="0" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ whoami</text>
     <text x="28" y="43" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="700">Kasper</text>
 
-    <text x="0" y="92" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ role --since 2022</text>
-    <text x="28" y="125" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="23">Concepteur &amp; développeur d'applications</text>
-    <text x="28" y="158" fill="#f97316" font-family="Consolas, 'Courier New', monospace" font-size="23">depuis 2022</text>
+    <text x="0" y="92" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ role</text>
+    <text x="28" y="125" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="23">Concepteur et développeur d'application</text>
 
     <text x="585" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ stack</text>
     <rect x="585" y="22" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
