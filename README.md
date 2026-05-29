@@ -40,5 +40,5 @@
 </p>
 
 <!-- profile-date:start -->
-<p align="center"><sub>Dernière mise à jour : 28 mai 2026</sub></p>
+<p align="center"><sub>Dernière mise à jour : 29 mai 2026</sub></p>
 <!-- profile-date:end -->
