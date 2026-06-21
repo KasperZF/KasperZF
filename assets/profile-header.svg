@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">KasperZF - concepteur et développeur d'application</title>
-  <desc id="desc">Fenêtre macOS plein cadre avec terminal, commandes profil, mini snake qui ramasse des carrés verts façon contributions GitHub et tags Windows, Linux, Front-End et Back-End.</desc>
+  <desc id="desc">Terminal animé et coloré avec profil de Kasper, plus de cinq ans d'expérience, activité GitHub, mini snake de contributions et stack technique.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="46%" stop-color="#101820"/>
       <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="34%" stop-color="#38bdf8"/>
+      <stop offset="68%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
     <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -20,17 +31,38 @@
     <pattern id="snakeCells" width="18" height="18" patternUnits="userSpaceOnUse">
       <rect x="2" y="2" width="12" height="12" rx="2" fill="#151b23" stroke="#283341" stroke-width="1" opacity=".95"/>
     </pattern>
+    <clipPath id="typeReveal">
+      <rect x="0" y="0" width="0" height="28">
+        <animate attributeName="width" values="0;0;245;245;0" keyTimes="0;.12;.42;.86;1" dur="6.4s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
-  <rect x="8" y="8" width="1184" height="344" rx="24" fill="url(#bg)"/>
-  <rect x="8" y="8" width="1184" height="344" rx="24" fill="url(#grid)" opacity=".9"/>
-  <rect x="8" y="8" width="1184" height="344" rx="24" fill="none" stroke="#30363d" stroke-width="2"/>
+  <rect x="8" y="8" width="1184" height="404" rx="24" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1184" height="404" rx="24" fill="url(#grid)" opacity=".9"/>
+  <rect x="8" y="8" width="1184" height="404" rx="24" fill="none" stroke="#30363d" stroke-width="2"/>
   <rect x="8" y="8" width="1184" height="46" rx="24" fill="#161b22"/>
   <path d="M8 32 Q8 8 32 8 H1168 Q1192 8 1192 32 V54 H8 Z" fill="#161b22"/>
   <circle cx="34" cy="31" r="7" fill="#ff5f56"/>
   <circle cx="58" cy="31" r="7" fill="#ffbd2e"/>
   <circle cx="82" cy="31" r="7" fill="#27c93f"/>
   <text x="112" y="36" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">kasperzf@profile: ~/readme</text>
+  <rect x="8" y="53" width="1184" height="2" fill="url(#accentLine)" opacity=".85">
+    <animate attributeName="opacity" values=".55;1;.55" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(1060 31)">
+    <circle cx="0" cy="0" r="5" fill="#22c55e">
+      <animate attributeName="r" values="4;6;4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.55;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="14" y="5" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="13">ONLINE</text>
+  </g>
+
+  <g opacity=".75" pointer-events="none">
+    <rect x="8" y="0" width="1184" height="42" fill="url(#scan)">
+      <animateTransform attributeName="transform" type="translate" values="0 54;0 350;0 54" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <g opacity=".55">
     <rect x="63" y="62" width="10" height="10" fill="#22c55e">
@@ -51,11 +83,22 @@
     <rect x="1036" y="265" width="10" height="10" fill="#38bdf8">
       <animate attributeName="opacity" values=".35;1;.35" dur="4.1s" repeatCount="indefinite"/>
     </rect>
+    <circle cx="222" cy="344" r="3" fill="#f59e0b">
+      <animateTransform attributeName="transform" type="translate" values="0 0;18 -8;0 0" dur="5.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.85;.2" dur="5.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="738" cy="72" r="3" fill="#38bdf8">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-12 8;0 0" dur="4.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;1;.25" dur="4.7s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M1120 326 h18 M1129 317 v18" stroke="#22c55e" stroke-width="2" opacity=".55">
+      <animateTransform attributeName="transform" type="rotate" values="0 1129 326;180 1129 326;360 1129 326" dur="12s" repeatCount="indefinite"/>
+    </path>
   </g>
 
   <g filter="url(#softGlow)">
-    <rect x="40" y="66" width="152" height="224" rx="8" fill="#0d1117" opacity=".35"/>
-    <rect x="44" y="70" width="144" height="216" fill="url(#snakeCells)" opacity=".98"/>
+    <rect x="40" y="66" width="152" height="298" rx="8" fill="#0d1117" opacity=".45"/>
+    <rect x="44" y="70" width="144" height="288" fill="url(#snakeCells)" opacity=".98"/>
 
     <g>
       <rect x="98" y="160" width="14" height="14" rx="3" fill="#39d353" stroke="#0e4429" stroke-width="2"/>
@@ -75,51 +118,144 @@
     </g>
 
     <g opacity=".64">
-      <g>
+      <g transform="translate(44 232)">
         <rect x="0" y="0" width="14" height="14" rx="3" fill="#14532d"/>
         <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="7.4s" begin="-6.56s" repeatCount="indefinite" values="44 232;62 232;80 232;98 232;98 214;98 196;80 196;62 196;62 178;62 160;80 160;98 160;116 160;134 160;134 142;134 124;152 124;170 124;170 142;170 160;152 160;152 178;152 196;170 196;170 214;170 232;152 232;134 232;134 250;116 250;98 250;80 250;80 268;62 268;44 268;44 250;44 232"/>
       </g>
-      <g>
+      <g transform="translate(44 232)">
         <rect x="0" y="0" width="14" height="14" rx="3" fill="#15803d"/>
         <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="7.4s" begin="-6.76s" repeatCount="indefinite" values="44 232;62 232;80 232;98 232;98 214;98 196;80 196;62 196;62 178;62 160;80 160;98 160;116 160;134 160;134 142;134 124;152 124;170 124;170 142;170 160;152 160;152 178;152 196;170 196;170 214;170 232;152 232;134 232;134 250;116 250;98 250;80 250;80 268;62 268;44 268;44 250;44 232"/>
       </g>
-      <g>
+      <g transform="translate(44 232)">
         <rect x="0" y="0" width="14" height="14" rx="3" fill="#16a34a"/>
         <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="7.4s" begin="-6.96s" repeatCount="indefinite" values="44 232;62 232;80 232;98 232;98 214;98 196;80 196;62 196;62 178;62 160;80 160;98 160;116 160;134 160;134 142;134 124;152 124;170 124;170 142;170 160;152 160;152 178;152 196;170 196;170 214;170 232;152 232;134 232;134 250;116 250;98 250;80 250;80 268;62 268;44 268;44 250;44 232"/>
       </g>
-      <g>
+      <g transform="translate(44 232)">
         <rect x="0" y="0" width="14" height="14" rx="3" fill="#22c55e"/>
         <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="7.4s" begin="-7.16s" repeatCount="indefinite" values="44 232;62 232;80 232;98 232;98 214;98 196;80 196;62 196;62 178;62 160;80 160;98 160;116 160;134 160;134 142;134 124;152 124;170 124;170 142;170 160;152 160;152 178;152 196;170 196;170 214;170 232;152 232;134 232;134 250;116 250;98 250;80 250;80 268;62 268;44 268;44 250;44 232"/>
       </g>
     </g>
 
-    <g>
+    <g transform="translate(43 231)">
       <rect x="0" y="0" width="16" height="16" rx="4" fill="#22c55e"/>
       <rect x="4" y="5" width="3" height="3" fill="#0d1117"/>
       <rect x="10" y="5" width="3" height="3" fill="#0d1117"/>
       <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="7.4s" repeatCount="indefinite" values="43 231;61 231;79 231;97 231;97 213;97 195;79 195;61 195;61 177;61 159;79 159;97 159;115 159;133 159;133 141;133 123;151 123;169 123;169 141;169 159;151 159;151 177;151 195;169 195;169 213;169 231;151 231;133 231;133 249;115 249;97 249;79 249;79 267;61 267;43 267;43 249;43 231"/>
     </g>
+
+    <g transform="translate(54 315)">
+      <circle cx="4" cy="4" r="4" fill="#22c55e">
+        <animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="16" y="9" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="12">contributions.live</text>
+      <g transform="translate(0 22)">
+        <rect x="0" y="0" width="8" height="8" rx="2" fill="#0e4429"/>
+        <rect x="12" y="0" width="8" height="8" rx="2" fill="#006d32"/>
+        <rect x="24" y="0" width="8" height="8" rx="2" fill="#26a641"/>
+        <rect x="36" y="0" width="8" height="8" rx="2" fill="#39d353"/>
+        <rect x="48" y="0" width="8" height="8" rx="2" fill="#26a641"/>
+        <rect x="60" y="0" width="8" height="8" rx="2" fill="#0e4429"/>
+        <rect x="72" y="0" width="8" height="8" rx="2" fill="#39d353"/>
+        <rect x="84" y="0" width="8" height="8" rx="2" fill="#006d32"/>
+        <rect x="96" y="0" width="8" height="8" rx="2" fill="#26a641"/>
+        <rect x="108" y="0" width="8" height="8" rx="2" fill="#39d353">
+          <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
   </g>
 
-  <g transform="translate(210 92)">
+  <g transform="translate(214 86)">
     <text x="0" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ whoami</text>
     <text x="28" y="43" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="700">Kasper</text>
+    <rect x="232" y="8" width="4" height="39" rx="2" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.45;.46;.92;1" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
 
     <text x="0" y="92" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ role</text>
-    <text x="28" y="125" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="23">Concepteur et développeur d'application</text>
+    <text x="28" y="125" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="22">Concepteur et développeur d'application</text>
 
-    <text x="585" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ stack</text>
-    <rect x="585" y="22" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
-    <text x="604" y="41" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
-    <rect x="694" y="22" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
-    <text x="715" y="41" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
-    <rect x="585" y="62" width="102" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
-    <text x="601" y="81" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Front-End</text>
-    <rect x="698" y="62" width="96" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
-    <text x="714" y="81" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Back-End</text>
+    <text x="0" y="174" fill="#38bdf8" font-family="Consolas, 'Courier New', monospace" font-size="20">$ experience --years</text>
+    <text x="28" y="211" fill="#f0f6fc" font-family="Consolas, 'Courier New', monospace" font-size="30" font-weight="700">5+ ans</text>
+    <text x="142" y="209" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="17">à coder, apprendre et livrer</text>
+    <g transform="translate(28 234)">
+      <rect x="0" y="0" width="390" height="5" rx="2.5" fill="#21262d"/>
+      <rect x="0" y="0" width="390" height="5" rx="2.5" fill="url(#accentLine)">
+        <animate attributeName="opacity" values=".45;1;.45" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="390" cy="2.5" r="5" fill="#f59e0b">
+        <animateTransform attributeName="transform" type="translate" values="-390 0;0 0;-390 0" dur="5.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="28" y="268" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="15">commit • push • iterate</text>
 
-    <text x="585" y="134" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ ship</text>
-    <text x="612" y="160" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="16">build clean, then push</text>
+    <text x="578" y="0" fill="#22c55e" font-family="Consolas, 'Courier New', monospace" font-size="20">$ stack</text>
+    <g>
+      <rect x="578" y="22" width="98" height="28" rx="6" fill="#12251b" stroke="#238636"/>
+      <text x="597" y="41" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="14">Windows</text>
+      <animateTransform attributeName="transform" type="translate" values="0 2;0 0;0 0;0 2" dur="5.6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="687" y="22" width="74" height="28" rx="6" fill="#2b220c" stroke="#d29922"/>
+      <text x="708" y="41" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="14">Linux</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 2;0 0;0 0" dur="5.6s" begin="-.7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="578" y="60" width="102" height="28" rx="6" fill="#102033" stroke="#1f6feb"/>
+      <text x="594" y="79" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Front-End</text>
+      <animate attributeName="opacity" values=".72;1;.72" dur="3.8s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="691" y="60" width="96" height="28" rx="6" fill="#271c10" stroke="#f97316"/>
+      <text x="707" y="79" fill="#fdba74" font-family="Consolas, 'Courier New', monospace" font-size="14">Back-End</text>
+      <animate attributeName="opacity" values="1;.72;1" dur="3.8s" begin="-.9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="578" y="98" width="76" height="28" rx="6" fill="#172033" stroke="#3776ab"/>
+      <text x="592" y="117" fill="#8ec5ff" font-family="Consolas, 'Courier New', monospace" font-size="14">Python</text>
+      <rect x="665" y="98" width="56" height="28" rx="6" fill="#2a1d18" stroke="#f05032"/>
+      <text x="680" y="117" fill="#ff8a70" font-family="Consolas, 'Courier New', monospace" font-size="14">Git</text>
+      <rect x="732" y="98" width="72" height="28" rx="6" fill="#1b2430" stroke="#8b949e"/>
+      <text x="747" y="117" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="14">CI/CD</text>
+    </g>
+
+    <text x="578" y="158" fill="#38bdf8" font-family="Consolas, 'Courier New', monospace" font-size="20">$ git status --short</text>
+    <circle cx="586" cy="181" r="4" fill="#22c55e">
+      <animate attributeName="opacity" values="1;.35;1" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="598" y="186" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="15">main  synced with origin</text>
+    <text x="598" y="208" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="14">working tree clean</text>
+
+    <text x="578" y="240" fill="#f59e0b" font-family="Consolas, 'Courier New', monospace" font-size="20">$ ship</text>
+    <g transform="translate(604 254)">
+      <g clip-path="url(#typeReveal)">
+        <text x="0" y="18" fill="#c9d1d9" font-family="Consolas, 'Courier New', monospace" font-size="16">git push origin main</text>
+      </g>
+      <rect x="0" y="2" width="3" height="20" fill="#f59e0b">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;238 0;238 0;0 0" keyTimes="0;.12;.42;.86;1" dur="6.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;.25;1" dur=".8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(604 300)">
+      <path d="M0 0 H190" stroke="#21262d" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 0 H190" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-dasharray="190" stroke-dashoffset="190">
+        <animate attributeName="stroke-dashoffset" values="190;190;0;0;190" keyTimes="0;.18;.52;.88;1" dur="6.4s" repeatCount="indefinite"/>
+      </path>
+      <text x="202" y="5" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="13">pushed</text>
+    </g>
+  </g>
+
+  <g transform="translate(24 382)">
+    <rect x="0" y="0" width="1152" height="23" rx="7" fill="#0b131b" stroke="#263242"/>
+    <rect x="0" y="0" width="128" height="23" rx="7" fill="#123021"/>
+    <path d="M16 8 a4 4 0 1 0 0 8 M16 8 v8 M16 8 l5 3" fill="none" stroke="#7ee787" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="30" y="16" fill="#7ee787" font-family="Consolas, 'Courier New', monospace" font-size="12">main</text>
+    <text x="146" y="16" fill="#79c0ff" font-family="Consolas, 'Courier New', monospace" font-size="12">README.md</text>
+    <text x="963" y="16" fill="#8b949e" font-family="Consolas, 'Courier New', monospace" font-size="12">UTF-8</text>
+    <text x="1040" y="16" fill="#facc15" font-family="Consolas, 'Courier New', monospace" font-size="12">Ln 42, Col 5</text>
+    <rect x="1119" y="8" width="18" height="7" rx="3.5" fill="#1f6feb" opacity=".85">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
 </svg>
