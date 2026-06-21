@@ -1,12 +1,13 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" alt="Fenêtre terminal KasperZF avec un snake qui collecte des carrés de contribution GitHub" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Terminal animé KasperZF avec expérience, stack, activité GitHub et snake de contributions" width="100%" />
 </div>
 
 <h1 align="center">KasperZF</h1>
 
 <p align="center">
-  Diplômé en conception et développement d'applications, je conçois et développe depuis 2022
-  avec l'objectif de transformer une idée en outil clair, utile et agréable à utiliser.<br />
+  Diplômé en conception et développement d'applications, je développe depuis plus de 5 ans
+  et je partage régulièrement mes projets sur GitHub.<br />
+  Mon objectif : transformer une idée en outil clair, utile et agréable à utiliser.<br />
   Et si l'application évite de transformer le PC en radiateur, c'est encore mieux.
 </p>
 
@@ -14,7 +15,7 @@
   <a href="https://github.com/KasperZF?tab=repositories" title="Voir mes projets GitHub">
     <img alt="Voir mes projets GitHub" src="https://img.shields.io/badge/GitHub-mes%20projets-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <img alt="Depuis 2022" src="https://img.shields.io/badge/Depuis-2022-f97316?style=for-the-badge" />
+  <img alt="Plus de 5 ans de développement" src="https://img.shields.io/badge/Expérience-%2B5%20ans-16a34a?style=for-the-badge" />
 </p>
 
 ### `> stack`
