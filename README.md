@@ -6,9 +6,7 @@
 
 <p align="center">
   Diplômé en conception et développement d'applications, je développe depuis plus de 5 ans
-  et je partage régulièrement mes projets sur GitHub.<br />
-  Mon objectif : transformer une idée en outil clair, utile et agréable à utiliser.<br />
-  Et si l'application évite de transformer le PC en radiateur, c'est encore mieux.
+  et je partage régulièrement mes projets.
 </p>
 
 <p align="center">
